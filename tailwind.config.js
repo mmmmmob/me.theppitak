@@ -4,8 +4,8 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        sans: ["Geist"],
-        serif: ["FK Roman Standard", "Chulabhorn Likit Text"],
+        sans: ["Geist", "Chulabhorn Likit"],
+        serif: ["FK Roman Standard", "Chulabhorn Likit"],
         mono: ["Geist Mono"],
         fkDisplay: ["FK Display"],
       },

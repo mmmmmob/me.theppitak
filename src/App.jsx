@@ -5,7 +5,7 @@ import Title from "./components/Title";
 
 function App() {
   return (
-    <div className="flex h-screen w-screen justify-center bg-slate-200 max-sm:flex-col dark:bg-slate-800">
+    <div className="flex h-screen w-screen flex-col justify-center bg-slate-200 dark:bg-slate-800 dark:text-slate-300">
       <Title />
       <Info />
       <SpeedInsights />

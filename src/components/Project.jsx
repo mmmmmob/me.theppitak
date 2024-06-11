@@ -43,8 +43,8 @@ const projects = [
 
 function Project() {
   return (
-    <div className="mx-5 mt-5 flex flex-col self-center rounded-lg bg-slate-600/10 p-5 md:w-8/12">
-      <p className="font-fkDisplay text-2xl font-bold">Side Projects</p>
+    <div className="mx-5 mt-5 self-center rounded-lg bg-slate-600/10 p-5 md:w-8/12">
+      <p className="font-fkDisplay text-2xl font-bold">Projects</p>
       <div className="mt-3 flex flex-col space-y-4">
         {projects.map((project) => (
           <ProjectCard key={project.id} project={project} />

@@ -4,26 +4,26 @@ function ProjectCard({ project }) {
   return (
     <div className="flex flex-col rounded-lg bg-gray-300 p-4 dark:bg-slate-800">
       <div className="flex flex-col">
-        <div className="mb-2 flex">
+        <div className="flex">
           <img
             src={project.icon}
             alt="icon"
-            className="mr-2 size-10 self-center rounded-md"
+            className="mr-3 size-10 self-center rounded-md"
           />
           <a
-            className="self-center text-xl font-semibold after:content-['_↗'] hover:text-slate-500 dark:hover:text-slate-100"
+            className="self-center font-mono text-xl font-semibold after:content-['_↗'] hover:text-slate-500 dark:hover:text-slate-100"
             href={project.url}
             target="_blank"
           >
             {project.title}
           </a>
         </div>
-        <div className="flex flex-wrap gap-x-1">
+        <div className="mt-2 flex flex-wrap gap-x-1">
           {project.stacks.map((stack) => (
             <StacksTag key={stack.id} stack={stack} />
           ))}
         </div>
-        <p className="mt-2 text-justify">{project.desc}</p>
+        <p className="mt-2 text-justify text-sm">{project.desc}</p>
       </div>
     </div>
   );

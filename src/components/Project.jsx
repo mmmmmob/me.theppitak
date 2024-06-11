@@ -21,14 +21,13 @@ const projects = [
         id: 5,
         name: "SwiftyJSON",
         color: "bg-indigo-600",
-        reactIcon: "SiSwift",
         reactIcon: VscJson,
       },
     ],
     icon: "/lottojournal.png",
     url: "https://github.com/mmmmmob/lotto-journal",
     title: "Lotto Journal",
-    desc: "Officia consequat eiusmod in cupidatat duis. Tempor exercitation dolor commodo quis labore id irure et elit. Sunt ipsum minim nulla. Cupidatat.",
+    desc: "A full-featured project that adopts the MVVM pattern into the design from the ground up. This app helps users store their lottery numbers they bought and automatically checks for prizes from the Government Lottery Office result's APIs, along with standard number searching capability.",
   },
   {
     id: 2,
@@ -39,7 +38,7 @@ const projects = [
     icon: "/resume.png",
     url: "https://github.com/mmmmmob/resume-swiftui",
     title: "Resume",
-    desc: "Officia consequat eiusmod in cupidatat duis. Tempor exercitation dolor commodo quis labore id irure et elit. Sunt ipsum minim nulla. Cupidatat.",
+    desc: "One of the first projects I started learning SwiftUI was where I learned how to arrange user interface elements using basic tools like HStack, VStack, and other modifiers from Apple's latest library.",
   },
   {
     id: 3,
@@ -57,7 +56,7 @@ const projects = [
     icon: "/loglife.png",
     url: "https://loglife.guru",
     title: "LogLife",
-    desc: "Officia consequat eiusmod in cupidatat duis. Tempor exercitation dolor commodo quis labore id irure et elit. Sunt ipsum minim nulla. Cupidatat.",
+    desc: "A final group project from the Generation Thailand bootcamp, where I contributed to both the design and coding of the front-end, as well as project management to ensure effective teamwork.",
   },
 ];
 

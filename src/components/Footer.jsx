@@ -31,6 +31,7 @@ function Footer() {
           <a
             href="https://creativecommons.org/licenses/by-sa/4.0/"
             target="_blank"
+            className="hover:text-gray-100 dark:hover:text-slate-100"
           >
             CC BY-SA 4.0
           </a>

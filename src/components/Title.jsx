@@ -8,7 +8,9 @@ function Title() {
           className="mr-3 size-20 self-center rounded-md max-sm:size-32"
         />
         <div className="self-center text-start">
-          <h1 className="text-balances text-3xl font-bold">Theppitak M.</h1>
+          <h1 className="text-balances font-fkDisplay text-3xl">
+            Theppitak M.
+          </h1>
           <p className="font-light leading-tight">
             A newcomer at the crossroad of tech and creativity.
           </p>

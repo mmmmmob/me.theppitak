@@ -27,7 +27,7 @@ function Footer() {
             </clipPath>
           </defs>
         </svg>
-        <div className="self-center font-mono text-xs">
+        <div className="self-center font-fkDisplay text-xs">
           <a
             href="https://creativecommons.org/licenses/by-sa/4.0/"
             target="_blank"

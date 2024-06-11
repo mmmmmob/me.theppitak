@@ -1,6 +1,6 @@
 function Footer() {
   return (
-    <div className="flex h-12 w-screen justify-between bg-gray-700/60 text-slate-300 shadow backdrop-blur-md md:h-16 dark:bg-gray-700/50">
+    <div className="flex h-12 w-screen justify-between bg-gray-700/60 text-slate-300 shadow backdrop-blur-md md:h-14 dark:bg-gray-700/50">
       {/* left-side footer [copyright]*/}
       <div className="ml-5 flex w-fit self-center">
         <svg
@@ -32,7 +32,7 @@ function Footer() {
         </div>
       </div>
       {/* right-side footer [social emblems] */}
-      <div className="mr-5 flex w-48 justify-between self-center">
+      <div className="mr-5 flex w-48 justify-between self-center md:w-72">
         {/* GitHub */}
         <a href="https://github.com/mmmmmob" target="_blank">
           <svg

@@ -3,7 +3,7 @@ import ModeToggle from "../snippets/ModeToggle";
 
 function Header() {
   return (
-    <div className="flex h-12 w-screen justify-between bg-white/20 shadow backdrop-blur-lg md:h-16 dark:bg-gray-700/50">
+    <div className="flex h-12 w-screen justify-between bg-white/20 shadow backdrop-blur-lg md:h-14 dark:bg-gray-700/50">
       <img
         src="/logo.png"
         alt="avatar"

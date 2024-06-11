@@ -1,4 +1,5 @@
 import CurrentTime from "../snippets/CurrentTime";
+import ModeToggle from "../snippets/ModeToggle";
 
 function Header() {
   return (
@@ -8,8 +9,13 @@ function Header() {
         alt="avatar"
         className="size-10 -translate-y-1 self-center rounded-md p-1"
       />
-      <div className="mr-2 self-center">
-        <CurrentTime />
+      <div className="mx-2 flex self-center">
+        <div className="self-center">
+          <CurrentTime />
+        </div>
+        <div className="ml-2 self-center">
+          <ModeToggle />
+        </div>
       </div>
     </div>
   );

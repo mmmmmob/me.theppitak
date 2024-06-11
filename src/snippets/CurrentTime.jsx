@@ -12,11 +12,11 @@ function CurrentTime() {
   }, []);
 
   return (
-    <div className="flex">
-      <p className="font-fkDisplay">
+    <div className="flex justify-center">
+      <p className="font-fkDisplay text-sm">
         {time.toLocaleTimeString("en-GB", { timeZone: "Asia/Bangkok" })}
       </p>
-      <p className="mx-1 font-fkDisplay font-bold">
+      <p className="mx-1 font-fkDisplay text-sm font-bold">
         •{" "}
         <a
           href={

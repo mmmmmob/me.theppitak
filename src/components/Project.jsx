@@ -1,6 +1,6 @@
 function Project() {
   return (
-    <div className="mx-5 my-5 self-center md:w-8/12">
+    <div className="mx-5 self-center md:w-8/12">
       <p className="mb-5 font-mono text-xl underline underline-offset-4">
         Projects
       </p>

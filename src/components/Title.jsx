@@ -1,6 +1,6 @@
 function Title() {
   return (
-    <div className="mx-5 mt-5 self-center md:w-8/12 md:flex-initial">
+    <div className="mx-5 self-center md:w-8/12 md:flex-initial">
       <div className="flex">
         <img
           src="/avatar.jpg"

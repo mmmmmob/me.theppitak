@@ -14,7 +14,7 @@ function App() {
         <div className="sticky top-0 w-full">
           <Header />
         </div>
-        <div className="mx-5 my-10 flex flex-1 flex-col items-center justify-center">
+        <div className="my-6 flex flex-1 flex-col items-center justify-center">
           <Title />
           <hr className="m-5 h-px self-center border-0 bg-gray-400 max-sm:w-11/12 md:w-8/12 dark:bg-gray-600" />
           <Info />

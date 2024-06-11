@@ -8,7 +8,7 @@ function ProjectCard({ project }) {
           <img
             src={project.icon}
             alt="icon"
-            className="mr-3 size-10 self-center rounded-md"
+            className="mr-3 size-12 self-center rounded-md"
           />
           <a
             className="self-center font-mono text-xl font-semibold after:content-['_↗'] hover:text-slate-500 dark:hover:text-slate-100"
@@ -18,12 +18,12 @@ function ProjectCard({ project }) {
             {project.title}
           </a>
         </div>
-        <div className="mt-2 flex flex-wrap gap-x-1">
+        <div className="mt-4 flex flex-wrap gap-x-1">
           {project.stacks.map((stack) => (
             <StacksTag key={stack.id} stack={stack} />
           ))}
         </div>
-        <p className="mt-2 text-justify text-sm">{project.desc}</p>
+        <p className="mt-4 text-justify">{project.desc}</p>
       </div>
     </div>
   );

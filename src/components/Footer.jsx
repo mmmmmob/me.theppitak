@@ -2,7 +2,7 @@ function Footer() {
   return (
     <div className="flex h-12 w-screen justify-between bg-gray-700 text-slate-300">
       {/* left-side footer [copyright]*/}
-      <div className="ml-5 flex w-fit">
+      <div className="ml-5 flex w-fit self-center">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           width="14"
@@ -27,7 +27,14 @@ function Footer() {
             </clipPath>
           </defs>
         </svg>
-        <div className="self-center font-mono text-xs">CC BY-SA 4.0</div>
+        <div className="self-center font-mono text-xs">
+          <a
+            href="https://creativecommons.org/licenses/by-sa/4.0/"
+            target="_blank"
+          >
+            CC BY-SA 4.0
+          </a>
+        </div>
       </div>
       {/* right-side footer [social emblems] */}
       <div className="mr-5 flex w-48 justify-between self-center">

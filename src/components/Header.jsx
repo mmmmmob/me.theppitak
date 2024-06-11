@@ -6,7 +6,7 @@ function Header() {
       <img
         src="/logo.png"
         alt="avatar"
-        className="m-2 size-10 self-center rounded-md p-1"
+        className="size-10 -translate-y-1 self-center rounded-md p-1"
       />
       <div className="mr-2 self-center">
         <CurrentTime />

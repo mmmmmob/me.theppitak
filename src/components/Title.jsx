@@ -1,16 +1,19 @@
 function Title() {
   return (
-    <div className="flex h-screen bg-slate-200 dark:bg-slate-800">
-      <div className="w-screen self-center">
-        <div className="text-center text-2xl dark:text-slate-300">
-          <p className="font-fkDisplay"> Hello, World!</p>
-          <p>Hello, World!</p>
-          <p className="font-serif">Hello, World!</p>
-          <p className="font-mono">Hello, World!</p>
-          <p>เฮลโล, เวิลด์!</p>
-          <p>こんにちは、世界！</p>
-          <p>안녕세계</p>
-          <p>你好世界</p>
+    <div className="mx-5 self-center md:w-8/12 md:flex-initial">
+      <div className="flex">
+        <img
+          src="/avatar.jpg"
+          alt="avatar"
+          className="mr-2 size-20 self-center rounded-md max-sm:size-28"
+        />
+        <div className="self-center text-start">
+          <h1 className="text-balances font-fkDisplay text-4xl font-semibold">
+            Theppitak M.
+          </h1>
+          <p className="font-fkDisplay leading-tight">
+            A newcomer at the crossroad of tech and creativity.
+          </p>
         </div>
       </div>
     </div>

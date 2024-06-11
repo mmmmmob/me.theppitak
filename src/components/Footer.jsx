@@ -1,6 +1,6 @@
 function Footer() {
   return (
-    <div className="flex h-12 w-screen justify-between bg-gray-700 text-slate-300">
+    <div className="flex h-12 w-screen justify-between bg-gray-700/60 text-slate-300 shadow backdrop-blur-md dark:bg-gray-700/50">
       {/* left-side footer [copyright]*/}
       <div className="ml-5 flex w-fit self-center">
         <svg
@@ -27,10 +27,11 @@ function Footer() {
             </clipPath>
           </defs>
         </svg>
-        <div className="self-center font-mono text-xs">
+        <div className="self-center font-fkDisplay text-xs">
           <a
             href="https://creativecommons.org/licenses/by-sa/4.0/"
             target="_blank"
+            className="hover:text-gray-100 dark:hover:text-slate-100"
           >
             CC BY-SA 4.0
           </a>

@@ -29,9 +29,9 @@ const experiences = [
 
 function WorkExp() {
   return (
-    <div className="mx-5 mt-5 flex flex-col self-center rounded-lg bg-slate-600/10 p-10 md:w-8/12">
+    <div className="mx-5 mt-5 flex flex-col self-center rounded-lg bg-slate-600/10 p-5 md:w-8/12">
       <p className="font-fkDisplay text-2xl font-bold">Experiences</p>
-      <div className="mt-3 flex flex-col space-y-3">
+      <div className="mt-3 flex flex-col space-y-4">
         {experiences.map((experience) => (
           <WorkExpCard key={experience.id} experience={experience} />
         ))}

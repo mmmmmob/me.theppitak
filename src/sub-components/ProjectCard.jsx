@@ -18,7 +18,7 @@ function ProjectCard({ project }) {
             {project.title}
           </a>
         </div>
-        <div className="flex flex-wrap gap-x-1 gap-y-1">
+        <div className="flex flex-wrap gap-x-1">
           {project.stacks.map((stack) => (
             <StacksTag key={stack.id} stack={stack} />
           ))}

@@ -1,9 +1,7 @@
 function Project() {
   return (
-    <div className="mx-5 self-center md:w-8/12">
-      <p className="mb-5 font-mono text-xl underline underline-offset-4">
-        Projects
-      </p>
+    <div className="mx-5 mt-5 self-center rounded-lg bg-slate-600/10 p-10 md:w-8/12">
+      <p className="font-fkDisplay text-2xl font-bold">Side Projects</p>
       <p>
         Labore do mollit Lorem mollit Lorem qui irure dolore cupidatat commodo.
         Amet ea veniam eiusmod. Cupidatat et ad laboris ex deserunt ullamco.

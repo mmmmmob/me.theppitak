@@ -1,6 +1,6 @@
 function Footer() {
   return (
-    <div className="flex h-12 w-screen justify-between bg-gray-700/50 text-slate-300 shadow backdrop-blur-lg">
+    <div className="flex h-12 w-screen justify-between bg-gray-700/60 text-slate-300 shadow backdrop-blur-md dark:bg-gray-700/50">
       {/* left-side footer [copyright]*/}
       <div className="ml-5 flex w-fit self-center">
         <svg

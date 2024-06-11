@@ -3,7 +3,7 @@ function Title() {
     <div className="mx-5 self-center md:w-8/12 md:flex-initial">
       <div className="flex">
         <img
-          src="/public/avatar.jpg"
+          src="/avatar.jpg"
           alt="avatar"
           className="mr-2 size-20 self-center rounded-md max-sm:size-28"
         />

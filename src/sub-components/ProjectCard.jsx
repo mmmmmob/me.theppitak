@@ -2,7 +2,7 @@ import StacksTag from "./StacksTag";
 
 function ProjectCard({ project }) {
   return (
-    <div className="flex flex-col rounded-lg bg-gray-300 p-4 dark:bg-slate-800">
+    <div className="flex flex-col rounded-lg bg-gray-400/20 p-4 dark:bg-slate-800">
       <div className="flex flex-col">
         <div className="flex">
           <img
@@ -23,7 +23,7 @@ function ProjectCard({ project }) {
             <StacksTag key={stack.id} stack={stack} />
           ))}
         </div>
-        <p className="mt-4 text-justify">{project.desc}</p>
+        <p className="mt-4 text-pretty">{project.desc}</p>
       </div>
     </div>
   );

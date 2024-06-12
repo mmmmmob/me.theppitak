@@ -61,11 +61,17 @@ Start the development server:
 bun run dev
 ```
 
-Open your browser and visit `http://localhost:5173` to see your portfolio.
+Open your browser and visit `http://localhost:5173` or the address as shown in your terminal to see your portfolio.
+
+### Spotify Now Playing Bar
+
+Refer to the `.env.example` file to learn how to obtain your credential tokens from the Spotify Developer website. Use these tokens in production by creating a `.env.local` file in your folder. Remember to set the actual environment variables on your deployment platform.
+
+You can opt-out of this feature by removing the `<NowPlaying/>` component from `App.jsx`.
 
 ## Technologies Used
 
-- **Frontend**: React, Tailwind CSS
+- **Frontend**: React, Tailwind CSS, daisyUI and react-icons
 - **Bundler**: Vite
 - **Package Manager**: Bun
 
@@ -81,4 +87,4 @@ Contributions are welcome! Please fork this repository and submit a pull request
 
 ## License
 
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+This project is licensed under the Creative Commons CC-BY-SA-4.0 license. See the [LICENSE](LICENSE) file for details.

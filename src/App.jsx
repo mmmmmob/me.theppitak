@@ -3,6 +3,7 @@ import { SpeedInsights } from "@vercel/speed-insights/react";
 import Footer from "./components/Footer";
 import Header from "./components/Header";
 import Info from "./components/Info";
+import { NowPlaying } from "./components/NowPlaying";
 import Project from "./components/Project";
 import Title from "./components/Title";
 import WorkExp from "./components/WorkExp";
@@ -11,10 +12,10 @@ function App() {
   return (
     <>
       <div className="flex min-h-screen flex-col bg-slate-200 dark:bg-slate-900 dark:text-slate-300">
-        <div className="sticky top-0 w-full">
+        <header className="sticky top-0 w-full">
           <Header />
-        </div>
-        <div className="flex flex-1 flex-col items-center justify-center">
+        </header>
+        <main className="flex flex-1 flex-col items-center justify-center">
           <div className="my-6 flex w-full flex-col items-center justify-center sm:max-w-5xl">
             <Title />
             <hr className="m-5 h-px self-center border-0 bg-gray-400 max-sm:w-11/12 md:w-8/12 dark:bg-gray-600" />
@@ -22,10 +23,11 @@ function App() {
             <WorkExp />
             <Project />
           </div>
-        </div>
-        <div className="sticky bottom-0 w-full">
+        </main>
+        <footer className="sticky bottom-0 w-full">
+          <NowPlaying />
           <Footer />
-        </div>
+        </footer>
       </div>
       <SpeedInsights />
       <Analytics />

@@ -23,7 +23,7 @@ function ProjectCard({ project }) {
             <StacksTag key={stack.id} stack={stack} />
           ))}
         </div>
-        <p className="mt-4 text-justify">{project.desc}</p>
+        <p className="mt-4 text-pretty">{project.desc}</p>
       </div>
     </div>
   );

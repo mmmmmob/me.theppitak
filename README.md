@@ -1,6 +1,8 @@
 # theppitak.me
 
-Welcome to my portfolio website, built with React, Bun, and Vite. This project showcases my skills, projects, and experiences.
+![Theppitak M_](https://github.com/mmmmmob/me.theppitak/assets/141404845/29d12b14-2540-4953-9c58-075005d9442d)
+
+theppitak.me , my portfoilio site built with React, Bun, and Vite. Design with cleanliness and simplicity in mind.
 
 ## Table of Contents
 

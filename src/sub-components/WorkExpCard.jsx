@@ -1,6 +1,6 @@
 function WorkExpCard({ experience }) {
   return (
-    <div className="flex flex-col rounded-lg bg-gray-300 p-4 dark:bg-slate-800">
+    <div className="flex flex-col rounded-lg bg-gray-400/20 p-4 dark:bg-slate-800">
       <div className="collapse collapse-arrow justify-start" tabIndex={0}>
         <div className="collapse-title">
           <p className="text-xs font-light text-zinc-600 underline decoration-dashed underline-offset-4 dark:text-zinc-400">

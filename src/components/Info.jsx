@@ -1,6 +1,6 @@
 function Info() {
   return (
-    <div className="mx-5 self-center rounded-lg bg-slate-600/10 p-10 md:w-8/12">
+    <div className="mx-5 self-center rounded-lg bg-slate-500/10 p-10 md:w-8/12">
       <article className="prose-h2:prose-lg dark:prose-invert">
         <h2 className="text-justify font-light tracking-tight">
           Former creative copywriter and project manager, now on my way to{" "}

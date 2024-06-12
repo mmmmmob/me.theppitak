@@ -2,7 +2,7 @@ import StacksTag from "./StacksTag";
 
 function ProjectCard({ project }) {
   return (
-    <div className="flex flex-col rounded-lg bg-gray-300 p-4 dark:bg-slate-800">
+    <div className="flex flex-col rounded-lg bg-gray-400/20 p-4 dark:bg-slate-800">
       <div className="flex flex-col">
         <div className="flex">
           <img

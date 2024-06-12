@@ -58,14 +58,11 @@ export const NowPlaying = (props) => {
               alt={`${result.title} album art`}
               className="mx-1 size-5 self-end rounded-md"
             />
-            <div className="flex self-center overflow-x-scroll text-xs font-bold">
-              <a
-                href={result.songUrl}
-                target="_blank"
-                className="font-medium max-md:w-40"
-              >
-                {result.title} • {result.artist}
+            <div className="flex self-center truncate text-xs font-bold">
+              <a href={result.songUrl} target="_blank" className="min-md:w-40">
+                {result.title}
               </a>
+              <p className="ml-1 truncate font-medium"> • {result.artist}</p>
             </div>
           </div>
         </div>

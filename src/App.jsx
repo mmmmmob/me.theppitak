@@ -11,7 +11,7 @@ import WorkExp from "./components/WorkExp";
 function App() {
   return (
     <>
-      <div className="flex min-h-screen flex-col bg-slate-200 dark:bg-slate-900 dark:text-slate-300">
+      <div className="flex min-h-screen flex-col bg-slate-200 text-slate-800 dark:bg-slate-900 dark:text-slate-300">
         <header className="sticky top-0 w-full">
           <Header />
         </header>

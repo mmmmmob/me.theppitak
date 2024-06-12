@@ -56,7 +56,6 @@ export default async function getNowPlayingItem(
   const songUrl = song.item.external_urls.spotify;
   const title = song.item.name;
 
-  console.log(title);
   return {
     albumImageUrl,
     artist,

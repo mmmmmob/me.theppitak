@@ -7,7 +7,7 @@ const experiences = [
     workplace: "Self-studied",
     url: "https://www.linkedin.com/in/theppitak-m/details/certifications/",
     title: "iOS Mobile Developer",
-    desc: "Since high school, I've always been passionate about Apple software. After finishing the bootcamp, I decided to dive into native iOS development. I taught myself Swift through online courses and various hands-on projects. In just two months, I created my first native iOS application, Lotto Journal.",
+    desc: "Since high school, I've always been passionate about Apple platform. After finishing the bootcamp, I decided to dive into native iOS development. I taught myself Swift through online courses and various hands-on projects. After two months, I created my first native iOS application, Lotto Journal.",
   },
   {
     id: 2,

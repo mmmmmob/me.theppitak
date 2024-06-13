@@ -5,6 +5,7 @@ import {
   SiNodedotjs,
   SiReact,
   SiSwift,
+  SiDaisyui,
 } from "react-icons/si";
 import { VscJson } from "react-icons/vsc";
 import ProjectCard from "../sub-components/ProjectCard";
@@ -51,6 +52,12 @@ const projects = [
         name: "Node.js",
         color: "bg-lime-700",
         reactIcon: SiNodedotjs,
+      },
+      {
+        id: 5,
+        name: "DaisyUI",
+        color: "bg-orange-500/80",
+        reactIcon: SiDaisyui,
       },
     ],
     icon: "/loglife.png",

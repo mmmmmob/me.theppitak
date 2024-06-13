@@ -2,7 +2,7 @@
 
 ![Theppitak M_](https://github.com/mmmmmob/me.theppitak/assets/141404845/29d12b14-2540-4953-9c58-075005d9442d)
 
-theppitak.me , my portfoilio site built with React, Bun, and Vite. Design with cleanliness and simplicity in mind.
+theppitak.me , my portfolio site built with React, Bun, and Vite. Design with cleanliness and simplicity in mind.
 
 ## Table of Contents
 
@@ -14,6 +14,7 @@ theppitak.me , my portfoilio site built with React, Bun, and Vite. Design with c
     - [Prerequisites](#prerequisites)
     - [Installation](#installation)
     - [Running the Project](#running-the-project)
+    - [Now Playing Bar](#now-playing-bar)
   - [Technologies Used](#technologies-used)
   - [Contributing](#contributing)
   - [License](#license)
@@ -63,7 +64,9 @@ bun run dev
 
 Open your browser and visit `http://localhost:5173` or the address as shown in your terminal to see your portfolio.
 
-### Spotify Now Playing Bar
+### Now Playing Bar
+
+The Now Playing Bar at the bottom pf the page uses Spotify's Now Playing API to retrieve information about your current listening song and render the data live on your site
 
 Refer to the `.env.example` file to learn how to obtain your credential tokens from the Spotify Developer website. Use these tokens in production by creating a `.env.local` file in your folder. Remember to set the actual environment variables on your deployment platform.
 
@@ -71,9 +74,9 @@ You can opt-out of this feature by removing the `<NowPlaying/>` component from `
 
 ## Technologies Used
 
-- **Frontend**: React, Tailwind CSS, daisyUI and react-icons
-- **Bundler**: Vite
-- **Package Manager**: Bun
+- **Frontend**: [React](https://react.dev/), [Tailwind CSS](https://tailwindcss.com/), [daisyUI](https://daisyui.com/) and [react-icons](https://react-icons.github.io/react-icons/)
+- **Bundler**: [Vite](https://vitejs.dev/)
+- **JavaScript Runtime and Package Manager**: [Bun](https://bun.sh/)
 
 ## Contributing
 
@@ -87,4 +90,4 @@ Contributions are welcome! Please fork this repository and submit a pull request
 
 ## License
 
-This project is licensed under the Creative Commons CC-BY-SA-4.0 license. See the [LICENSE](LICENSE) file for details.
+This project is licensed under the Creative Commons license. See the [LICENSE](LICENSE) file for details.

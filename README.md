@@ -41,11 +41,11 @@ Ensure you have the following tools installed:
 
 ### Installation
 
-1. Clone the repository:
+1. Clone or create your own respository from template:
 
    ```sh
-   git clone https://github.com/mmmmmob/me.theppitak.git
-   cd me.theppitak
+   git clone https://github.com/mmmmmob/www.git
+   cd www
    ```
 
 2. Install dependencies using Bun:

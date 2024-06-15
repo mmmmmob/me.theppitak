@@ -26,7 +26,7 @@ export const NowPlaying = (props) => {
   useEffect(() => {
     const intervalId = setInterval(() => {
       fetchNowPlaying();
-    }, 30000);
+    }, 45000);
 
     return () => clearInterval(intervalId);
   }, []);
@@ -38,8 +38,8 @@ export const NowPlaying = (props) => {
       )}
       {!loading && !isPlaying && (
         <div className="my-2 flex w-fit self-center truncate">
-          <div className="mx-1 self-center">
-            <BiSolidBarChartAlt2 size={20} />
+          <div className="self-center">
+            <BiSolidBarChartAlt2 size={20} className="mx-1" />
           </div>
           <p className="w-fit self-end text-xs">Currently Offline</p>
         </div>
@@ -52,17 +52,24 @@ export const NowPlaying = (props) => {
             </p>
           </div>
           <div className="flex self-center">
-            <BiSolidBarChartAlt2 size={18} />
+            <BiSolidBarChartAlt2 size={18} className="mx-1" />
             <img
               src={result.albumImageUrl}
               alt={`${result.title} album art`}
               className="mx-1 size-5 self-end rounded-md"
             />
-            <div className="flex self-center truncate text-xs font-bold">
-              <a href={result.songUrl} target="_blank" className="min-md:w-40">
+            <div className="min-md:w-40 flex self-center text-xs font-bold">
+              <a
+                href={result.songUrl}
+                target="_blank"
+                className="mx-1 overflow-x-scroll text-center max-md:max-w-44"
+              >
                 {result.title}
               </a>
-              <p className="ml-1 truncate font-medium"> • {result.artist}</p>
+              <p className="mx-1">•</p>
+              <p className="ml-1 truncate text-center font-medium max-md:max-w-36">
+                {result.artist}
+              </p>
             </div>
           </div>
         </div>
